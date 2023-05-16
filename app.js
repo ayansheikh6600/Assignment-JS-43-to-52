@@ -27,11 +27,11 @@ function supra1(){
 
 ///Question#5
 var counter = document.getElementById("counter")
-var countertxt = counter.innerText
-
 function add(){
- countertxt = +countertxt +1
- console.log(countertxt)
- return
+counter.value = +counter.value + 1
 
+}
+
+function sub(){
+    counter.value = +counter.value - 1
 }
